@@ -1,0 +1,34 @@
+{
+  "name": "express-4.x-passport-snapchat-example",
+  "version": "0.0.0",
+  "description": "Express 4.x app using Passport for authorization with Snapchat.",
+  "keywords": [
+    "example",
+    "express",
+    "passport",
+    "snapchat"
+  ],
+  "license": "Unlicense",
+  "homepage": "https://github.com/Snapchat/express-4.x-passport-snapchat-example",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Snapchat/express-4.x-passport-snapchat-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Snapchat/express-4.x-passport-snapchat-example/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect-ensure-login": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-session": "^1.11.3",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-snapchat": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}

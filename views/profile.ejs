@@ -1,0 +1,10 @@
+<p>
+  <strong>ID:</strong> <%= user.id %><br/>
+  <strong>Name:</strong> <%= user.displayName %><br/>
+  <% if (user.bitmoji.avatarUrl) { %>
+    <strong>BITMOJI</strong><br/>
+    <i>Avatar ID:</i> <%= user.bitmoji.avatarId %><br/>
+    <i>Avatar</i><br/>
+    <img src="<%= user.bitmoji.avatarUrl %>&scale=2" height="140" width="140" />
+  <% } %>
+</p>
