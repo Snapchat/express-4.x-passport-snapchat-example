@@ -1,7 +1,14 @@
 const express = require('express');
+const fs = require('fs');
+const path = require('path');
 const passport = require('passport');
 const SnapchatStrategy = require('passport-snapchat').Strategy;
-const config = require('./config');
+
+let config = {};
+try {
+  fs.statSync(path.join(__dirname, './config'))
+  config = require('./config');
+} catch (e) {}
 
 // Configure the Snapchat strategy for use by Passport.
 //
