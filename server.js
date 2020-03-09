@@ -23,6 +23,8 @@ passport.use(new SnapchatStrategy({
     callbackURL: 'http://localhost:3000/login/snapchat/callback',
     profileFields: ['id', 'displayName', 'bitmoji'],
     scope: ['user.display_name', 'user.bitmoji.avatar'],
+    pkce: true,
+    state: true
   },
   function(accessToken, refreshToken, profile, cb) {
     // In this example, the user's Snapchat profile is supplied as the user
