@@ -18,11 +18,11 @@
     "url": "https://github.com/Snapchat/express-4.x-passport-snapchat-example/issues"
   },
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "connect-ensure-login": "^0.1.1",
     "cookie-parser": "^1.4.4",
     "ejs": "^3.0.1",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "express-session": "^1.17.0",
     "morgan": "^1.9.1",
     "passport": "^0.4.0",
